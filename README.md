@@ -1,4 +1,3 @@
-# mess
 -- Create the database
 CREATE DATABASE CanyonRetailOperations;
 
@@ -153,3 +152,4 @@ INSERT INTO soldvia VALUES (2, 6, 4);
 INSERT INTO soldvia VALUES (3, 6, 7);
 INSERT INTO soldvia VALUES (1, 7, 3);
 INSERT INTO soldvia VALUES (5, 7, 7);
+
