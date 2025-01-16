@@ -1,0 +1,8 @@
+-- Step 1: Find the product_id for 'Easy Boot'
+SELECT product_id 
+FROM Products 
+WHERE product_name = 'Easy Boot';
+
+-- Assuming the product_id retrieved is 'P123', insert the new record into SoldVia:
+INSERT INTO SoldVia (transaction_id, product_id, quantity)
+VALUES ('T007', 'P123', 2);
